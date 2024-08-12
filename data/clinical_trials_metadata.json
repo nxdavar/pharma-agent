@@ -1,0 +1,50 @@
+{
+  "fields": [
+    {
+      "field_name": "NCT Number",
+      "definition": "ID for the study",
+      "data_type": "Text"
+    },
+    {
+      "field_name": "Study Title",
+      "definition": "A short title of the clinical study written in language intended for the lay public. The title should include, where possible, information on the participants, condition being evaluated, and intervention(s) studied.",
+      "data_type": "Text"
+    },
+    {
+      "field_name": "Study URL",
+      "definition": "URL for the study",
+      "data_type": "Text"
+    },
+    {
+      "field_name": "Study Status",
+      "definition": "The recruitment status for the clinical study as a whole, based upon the status of the individual sites. If at least one facility in a multi-site clinical study has an Individual Site Status of 'Recruiting,' then the Overall Recruitment Status for the study must be 'Recruiting.'",
+      "data_type": "Enum",
+      "enum_values": [
+        "ACTIVE_NOT_RECRUITING",
+        "COMPLETED",
+        "ENROLLING_BY_INVITATION",
+        "NOT_YET_RECRUITING",
+        "RECRUITING",
+        "SUSPENDED",
+        "TERMINATED",
+        "WITHDRAWN",
+        "AVAILABLE",
+        "NO_LONGER_AVAILABLE",
+        "TEMPORARILY_NOT_AVAILABLE",
+        "APPROVED_FOR_MARKETING",
+        "WITHHELD",
+        "UNKNOWN"
+      ]
+    },
+    {
+      "field_name": "Sponsor",
+      "definition": "The name of the entity or the individual who is the sponsor of the clinical study.",
+      "data_type": "Text"
+    },
+    {
+      "field_name": "Collaborators",
+      "definition": "Other organizations (if any) providing support. Support may include funding, design, implementation, data analysis or reporting. The responsible party is responsible for confirming all collaborators before listing them. Limit: 160 characters.",
+      "data_type": "Text"
+    }
+  ]
+}
